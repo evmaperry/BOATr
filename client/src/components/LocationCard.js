@@ -53,7 +53,7 @@ export default function LocationCard (props) {
       } catch (error) {
         alert(error);
       }
-  }, [])
+  }, [props.location.zip])
 
   return (
     <div onClick={props.incrementVisitors} onMouseEnter={handleHover} onMouseLeave={handleHover} style={styles} className='location-card'>
