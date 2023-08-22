@@ -41,8 +41,8 @@ export default function LocationCard (props) {
       const options = {
 	      method: 'GET',
 	      headers: {
-		    'X-RapidAPI-Key': '880eae0927mshc39b86a7a61d13ep1f7472jsn6961688c11d4',
-		    'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
+		    'X-RapidAPI-Key': process.env.REACT_APP_WEATHER_API_KEY,
+		    'X-RapidAPI-Host': process.env.REACT_APP_WEATHER_API_HOST
 	      }
       };
 
