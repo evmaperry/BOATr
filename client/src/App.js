@@ -6,6 +6,7 @@ import Splash from './components/Splash.js';
 import LocationsContainer from './components/LocationsContainer';
 import ServicesContainer from './components/ServicesContainer';
 import EmailForm from './components/EmailForm';
+import Weather from './components/Weather';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ServicesContainer />
       <LocationsContainer />
       <EmailForm />
+      <Weather />
       <Footer />
     </div>
   );
